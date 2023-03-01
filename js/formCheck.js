@@ -1,5 +1,5 @@
 function formCheck(event) {
-  
+  var hex = document.getElementById("hex-input").value;
   // Check if input is exactly 6 hexadecimal characters
   if (!/^[0-9a-fA-F]{6}$/.test(hex)) {
     event.preventDefault();
