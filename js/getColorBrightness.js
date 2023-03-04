@@ -1,8 +1,8 @@
 function getColorBrightness(color) {
     // Get separate HEX values from the color
-    const redHEX = color.substring(0, 1);
-    const greenHEX = color.substring(2, 3);
-    const blueHEX = color.substring(4, 5);
+    const redHEX = color.substring(0, 2);
+    const greenHEX = color.substring(2, 2);
+    const blueHEX = color.substring(4, 2);
 
     // Convert HEX values to RGB
     const redRGB = parseInt(redHEX, 16);
