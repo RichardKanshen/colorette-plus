@@ -4,7 +4,6 @@ function checkColor() {
   if (color) {
     document.getElementById('hex-input').value = color;
     changeTheme(color);
-      getColorBrightness(color);
     document.getElementById('color0').style.display = "flex";
     document.getElementById('color1').style.display = "flex";
     document.getElementById('color2').style.display = "flex";
@@ -16,5 +15,6 @@ function checkColor() {
     document.getElementById('color8').style.display = "flex";
     document.getElementById('color9').style.display = "flex";
     document.getElementById('color10').style.display = "flex";
+    getColorBrightness(color);
   }
 }
