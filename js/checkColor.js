@@ -15,6 +15,7 @@ function checkColor() {
     document.getElementById('color8').style.display = "flex";
     document.getElementById('color9').style.display = "flex";
     document.getElementById('color10').style.display = "flex";
+    document.getElementById('maincolorpalletteholder').style.display = "flex";
     getColorBrightness(color);
   }
 }
