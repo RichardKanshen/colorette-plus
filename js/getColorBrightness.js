@@ -16,7 +16,8 @@ function getColorBrightness(color) {
     // Get color brightness from the average of RGB values
     const brightness = Math.round(avgRGB / 25.5);
 
-    console.log(color);
-    console.log(brightness);
+    console.log(rgbRGB);
+    console.log(avgRGB);
+    console.log(brightness)
     getDefault(color, brightness)
 }
