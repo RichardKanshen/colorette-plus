@@ -4,7 +4,9 @@ function checkColor() {
   if (color) {
     document.getElementById('hex-input').value = color;
     changeTheme(color);
-    document.querySelectorAll('.maincolorpallette').style.display = 'flex'
+    document.querySelectorAll('.maincolorpallette').forEach(function (box) {
+      box.style.display = 'flex'
       getColorBrightness(color);
+    })
   }
 }
