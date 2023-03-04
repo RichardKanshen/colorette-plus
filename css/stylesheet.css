@@ -78,9 +78,10 @@ input[type="text"] {
   margin: 25px auto;
 }
 
-#maincolorpallettebox {
+.maincolorpallettebox {
   display: inline-block;
   width: 9.999999999999%;
   height: 50px;
   border: 3px solid #F0F0F0;
+  color: #F0F0F0;
 }
