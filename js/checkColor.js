@@ -6,6 +6,7 @@ function checkColor() {
     changeTheme(color);
     document.querySelectorAll('.maincolorpallette').forEach(function (box) {
       box.style.display = 'flex'
+      getColorBrightness(color);
     })
   }
 }
