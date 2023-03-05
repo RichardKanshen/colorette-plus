@@ -38,6 +38,14 @@ p > strong {
     color: #F0F0F0;
 }
 
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 /*Color Selector*/
 form {
     background-color: #0F0F0F;
