@@ -13,15 +13,15 @@ function generatePalette(defColor, defBrightness) {
     let color1;
     if (defBrightness === 0) {
         color1 = {
-            red: Math.round(redRGB / 0.5),
-            green: Math.round(greenRGB / 0.5),
-            blue: Math.round(blueRGB / 0.5)
+            red: Math.round(Math.round(redRGB / 0.5)),
+            green: Math.round(Math.round(greenRGB / 0.5)),
+            blue: Math.round(Math.round(blueRGB / 0.5))
         };
     } else {
         color1 = {
-            red: Math.round(redRGB / defBrightness),
-            green: Math.round(greenRGB / defBrightness),
-            blue: Math.round(blueRGB / defBrightness)
+            red: Math.round(Math.round(redRGB / defBrightness)),
+            green: Math.round(Math.round(greenRGB / defBrightness)),
+            blue: Math.round(Math.round(blueRGB / defBrightness))
         };
     }
     if (color1.red > 255) {
@@ -54,15 +54,15 @@ function generatePalette(defColor, defBrightness) {
     let color0;
     if (defBrightness === 0) {
         color0 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color0 = {
-            red: color1.red / 2,
-            green: color1.green / 2,
-            blue: color1.blue / 2
+            red: Math.round(color1.red / 2),
+            green: Math.round(color1.green / 2),
+            blue: Math.round(color1.blue / 2)
         };
     }
     if (color0.red > 255) {
@@ -94,15 +94,15 @@ function generatePalette(defColor, defBrightness) {
     let color2;
     if (defBrightness === 2) {
         color0 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color2 = {
-            red: color1.red * 2,
-            green: color1.green * 2,
-            blue: color1.blue * 2
+            red: Math.round(color1.red * 2),
+            green: Math.round(color1.green * 2),
+            blue: Math.round(color1.blue * 2)
         };
     }
     if (color2.red > 255) {
@@ -134,15 +134,15 @@ function generatePalette(defColor, defBrightness) {
     let color3;
     if (defBrightness === 3) {
         color3 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color3 = {
-            red: color1.red * 3,
-            green: color1.green * 3,
-            blue: color1.blue * 3
+            red: Math.round(color1.red * 3),
+            green: Math.round(color1.green * 3),
+            blue: Math.round(color1.blue * 3)
         };
     }
     if (color3.red > 255) {
@@ -174,15 +174,15 @@ function generatePalette(defColor, defBrightness) {
     let color4;
     if (defBrightness === 4) {
         color0 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color4 = {
-            red: color1.red * 4,
-            green: color1.green * 4,
-            blue: color1.blue * 4
+            red: Math.round(color1.red * 4),
+            green: Math.round(color1.green * 4),
+            blue: Math.round(color1.blue * 4)
         };
     }
     if (color4.red > 255) {
@@ -214,15 +214,15 @@ function generatePalette(defColor, defBrightness) {
     let color5;
     if (defBrightness === 5) {
         color5 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color5 = {
-            red: color1.red * 5,
-            green: color1.green * 5,
-            blue: color1.blue * 5
+            red: Math.round(color1.red * 5),
+            green: Math.round(color1.green * 5),
+            blue: Math.round(color1.blue * 5)
         };
     }
     if (color5.red > 255) {
@@ -254,15 +254,15 @@ function generatePalette(defColor, defBrightness) {
     let color6;
     if (defBrightness === 6) {
         color6 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color6 = {
-            red: color1.red * 6,
-            green: color1.green * 6,
-            blue: color1.blue * 6
+            red: Math.round(color1.red * 6),
+            green: Math.round(color1.green * 6),
+            blue: Math.round(color1.blue * 6)
         };
     }
     if (color6.red > 255) {
@@ -294,15 +294,15 @@ function generatePalette(defColor, defBrightness) {
     let color7;
     if (defBrightness === 7) {
         color7 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color7 = {
-            red: color1.red * 7,
-            green: color1.green * 7,
-            blue: color1.blue * 7
+            red: Math.round(color1.red * 7),
+            green: Math.round(color1.green * 7),
+            blue: Math.round(color1.blue * 7)
         };
     }
     if (color7.red > 255) {
@@ -334,15 +334,15 @@ function generatePalette(defColor, defBrightness) {
     let color8;
     if (defBrightness === 8) {
         color8 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color8 = {
-            red: color1.red * 8,
-            green: color1.green * 8,
-            blue: color1.blue * 8
+            red: Math.round(color1.red * 8),
+            green: Math.round(color1.green * 8),
+            blue: Math.round(color1.blue * 8)
         };
     }
     if (color8.red > 255) {
@@ -374,15 +374,15 @@ function generatePalette(defColor, defBrightness) {
     let color9;
     if (defBrightness === 9) {
         color9 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color9 = {
-            red: color1.red * 9,
-            green: color1.green * 9,
-            blue: color1.blue * 9
+            red: Math.round(color1.red * 9),
+            green: Math.round(color1.green * 9),
+            blue: Math.round(color1.blue * 9)
         };
     }
     if (color9.red > 255) {
@@ -414,15 +414,15 @@ function generatePalette(defColor, defBrightness) {
     let color10;
     if (defBrightness === 10) {
         color10 = {
-            red: redRGB,
-            green: greenRGB,
-            blue: blueRGB
+            red: Math.round(redRGB),
+            green: Math.round(greenRGB),
+            blue: Math.round(blueRGB)
         };
     } else {
         color10 = {
-            red: color1.red * 10,
-            green: color1.green * 10,
-            blue: color1.blue * 10
+            red: Math.round(color1.red * 10),
+            green: Math.round(color1.green * 10),
+            blue: Math.round(color1.blue * 10)
         };
     }
     if (color10.red > 255) {
