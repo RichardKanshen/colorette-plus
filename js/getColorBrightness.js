@@ -16,5 +16,5 @@ function getColorBrightness(color) {
     // Get color brightness from the average of RGB values
     const brightness = Math.round(avgRGB / 25.5);
 
-    getDefault(color, brightness)
+    generatePalette(color, brightness)
 }
