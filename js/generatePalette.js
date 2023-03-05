@@ -133,7 +133,7 @@ function generatePalette(defColor, defBrightness) {
     // Calculate the color3
     let color3;
     if (defBrightness === 3) {
-        color0 = {
+        color3 = {
             red: redRGB,
             green: greenRGB,
             blue: blueRGB
