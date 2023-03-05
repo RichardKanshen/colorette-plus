@@ -45,9 +45,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color0 = {
-            red: color0.red / 2,
-            green: color0.green / 2,
-            blue: color0.blue / 2
+            red: color1.red / 2,
+            green: color1.green / 2,
+            blue: color1.blue / 2
         };
     }
     if (color0.red > 255) {
