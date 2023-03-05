@@ -70,9 +70,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color2 = {
-            red: color2.red * 2,
-            green: color2.green * 2,
-            blue: color2.blue * 2
+            red: color1.red * 2,
+            green: color1.green * 2,
+            blue: color1.blue * 2
         };
     }
     if (color2.red > 255) {
@@ -96,9 +96,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color3 = {
-            red: color3.red * 3,
-            green: color3.green * 3,
-            blue: color3.blue * 3
+            red: color1.red * 3,
+            green: color1.green * 3,
+            blue: color1.blue * 3
         };
     }
     if (color3.red > 255) {
@@ -122,9 +122,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color4 = {
-            red: color4.red * 4,
-            green: color4.green * 4,
-            blue: color4.blue * 4
+            red: color1.red * 4,
+            green: color1.green * 4,
+            blue: color1.blue * 4
         };
     }
     if (color4.red > 255) {
@@ -148,9 +148,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color5 = {
-            red: color5.red * 5,
-            green: color5.green * 5,
-            blue: color5.blue * 5
+            red: color1.red * 5,
+            green: color1.green * 5,
+            blue: color1.blue * 5
         };
     }
     if (color5.red > 255) {
@@ -174,9 +174,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color6 = {
-            red: color6.red * 6,
-            green: color6.green * 6,
-            blue: color6.blue * 6
+            red: color1.red * 6,
+            green: color1.green * 6,
+            blue: color1.blue * 6
         };
     }
     if (color6.red > 255) {
@@ -199,9 +199,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color7 = {
-            red: color7.red * 7,
-            green: color7.green * 7,
-            blue: color7.blue * 7
+            red: color1.red * 7,
+            green: color1.green * 7,
+            blue: color1.blue * 7
         };
     }
     if (color7.red > 255) {
@@ -224,9 +224,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color8 = {
-            red: color8.red * 8,
-            green: color8.green * 8,
-            blue: color8.blue * 8
+            red: color1.red * 8,
+            green: color1.green * 8,
+            blue: color1.blue * 8
         };
     }
     if (color8.red > 255) {
@@ -249,9 +249,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color9 = {
-            red: color9.red * 9,
-            green: color9.green * 9,
-            blue: color9.blue * 9
+            red: color1.red * 9,
+            green: color1.green * 9,
+            blue: color1.blue * 9
         };
     }
     if (color9.red > 255) {
@@ -274,9 +274,9 @@ function generatePalette(defColor, defBrightness) {
         };
     } else {
         color10 = {
-            red: color10.red * 10,
-            green: color10.green * 10,
-            blue: color10.blue * 10
+            red: color1.red * 10,
+            green: color1.green * 10,
+            blue: color1.blue * 10
         };
     }
     if (color10.red > 255) {
