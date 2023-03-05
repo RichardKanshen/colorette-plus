@@ -33,6 +33,21 @@ function generatePalette(defColor, defBrightness) {
     if (color1.blue > 255) {
         color1.blue = 255;
     }
+    if (redRGB === 0) {
+        if (defBrightness < 1) {
+            color1.red = (1 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 1) {
+            color1.green = (1 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 1) {
+            color1.blue = (1 - defBrightness) * (255 / 11)
+        }
+    }
 
 
     // Calculate the color0
@@ -59,6 +74,21 @@ function generatePalette(defColor, defBrightness) {
     if (color0.blue > 255) {
         color0.blue = 255;
     }
+    if (redRGB === 0) {
+        if (defBrightness < 0) {
+            color0.red = (0 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 0) {
+            color0.green = (0 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 0) {
+            color0.blue = (0 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color2
     let color2;
@@ -84,7 +114,21 @@ function generatePalette(defColor, defBrightness) {
     if (color2.blue > 255) {
         color2.blue = 255;
     }
-
+    if (redRGB === 0) {
+        if (defBrightness < 2) {
+            color2.red = (2 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 2) {
+            color2.green = (2 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 2) {
+            color2.blue = (2 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color3
     let color3;
@@ -110,7 +154,21 @@ function generatePalette(defColor, defBrightness) {
     if (color3.blue > 255) {
         color3.blue = 255;
     }
-
+    if (redRGB === 0) {
+        if (defBrightness < 3) {
+            color3.red = (3 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 3) {
+            color3.green = (3 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 3) {
+            color3.blue = (3 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color4
     let color4;
@@ -136,7 +194,21 @@ function generatePalette(defColor, defBrightness) {
     if (color4.blue > 255) {
         color4.blue = 255;
     }
-
+    if (redRGB === 0) {
+        if (defBrightness < 4) {
+            color4.red = (4 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 4) {
+            color4.green = (4 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 4) {
+            color4.blue = (4 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color5
     let color5;
@@ -162,7 +234,21 @@ function generatePalette(defColor, defBrightness) {
     if (color5.blue > 255) {
         color5.blue = 255;
     }
-
+    if (redRGB === 0) {
+        if (defBrightness < 5) {
+            color5.red = (5 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 5) {
+            color5.green = (5 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 5) {
+            color5.blue = (5 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color6
     let color6;
@@ -187,6 +273,21 @@ function generatePalette(defColor, defBrightness) {
     }
     if (color6.blue > 255) {
         color6.blue = 255;
+    }
+    if (redRGB === 0) {
+        if (defBrightness < 6) {
+            color6.red = (6 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 6) {
+            color6.green = (6 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 6) {
+            color6.blue = (6 - defBrightness) * (255 / 11)
+        }
     }
 
     // Calculate the color7
@@ -213,6 +314,21 @@ function generatePalette(defColor, defBrightness) {
     if (color7.blue > 255) {
         color7.blue = 255;
     }
+    if (redRGB === 0) {
+        if (defBrightness < 7) {
+            color7.red = (7 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 7) {
+            color7.green = (7 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 7) {
+            color7.blue = (7 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color8
     let color8;
@@ -237,6 +353,21 @@ function generatePalette(defColor, defBrightness) {
     }
     if (color8.blue > 255) {
         color8.blue = 255;
+    }
+    if (redRGB === 0) {
+        if (defBrightness < 8) {
+            color8.red = (8 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 8) {
+            color8.green = (8 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 8) {
+            color8.blue = (8 - defBrightness) * (255 / 11)
+        }
     }
 
     // Calculate the color9
@@ -263,6 +394,21 @@ function generatePalette(defColor, defBrightness) {
     if (color9.blue > 255) {
         color9.blue = 255;
     }
+    if (redRGB === 0) {
+        if (defBrightness < 9) {
+            color9.red = (9 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 9) {
+            color9.green = (9 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 9) {
+            color9.blue = (9 - defBrightness) * (255 / 11)
+        }
+    }
 
     // Calculate the color10
     let color10;
@@ -288,6 +434,22 @@ function generatePalette(defColor, defBrightness) {
     if (color10.blue > 255) {
         color10.blue = 255;
     }
+    if (redRGB === 0) {
+        if (defBrightness < 10) {
+            color10.red = (10 - defBrightness) * (255 / 11)
+        }
+    }
+    if (greenRGB === 0) {
+        if (defBrightness < 10) {
+            color10.green = (10 - defBrightness) * (255 / 11)
+        }
+    }
+    if (blueRGB === 0) {
+        if (defBrightness < 10) {
+            color10.blue = (10 - defBrightness) * (255 / 11)
+        }
+    }
+
     compilePalette(color0, color1, color2, color3, color4, color5, color6, color7, color8, color9, color10)
 }
 
