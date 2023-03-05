@@ -29,10 +29,13 @@ p {
     font-family: Vegur;
     font-weight: normal;
     font-size: 16px;
+    color: #F0F0F0;
 }
 
 p > strong {
-    font-weight: normal;
+    font-family: Vegur;
+    font-weight: bold;
+    color: #F0F0F0;
 }
 
 /*Color Selector*/
