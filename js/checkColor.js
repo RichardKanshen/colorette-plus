@@ -25,7 +25,7 @@ function checkColor() {
     checkContrast(color)
     } else if (color.length === 3) {
       var formattedcolor = `${color[0]}${color[0]}${color[1]}${color[1]}${color[2]}${color[2]}`;
-      changeTheme(formattedcolorcolor);
+      changeTheme(formattedcolor);
       getColorBrightness(formattedcolor);
       checkContrast(formattedcolor)
     }
